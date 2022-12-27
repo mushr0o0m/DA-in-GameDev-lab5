@@ -62,7 +62,17 @@
 
   Cumulative Reward, Extrinsic Reward и Episode Length поменяли свой вид, Entropy теперь плавно возрастает.
 
+  - Значение параметра ```lambd: 0.95``` на ```lambd: 0.8```
 
+  ![image](https://user-images.githubusercontent.com/105949115/209597291-180bcca6-1655-4bcd-be1a-3bb351d32e1f.png)
+  
+  Extrinsic Reward начал убывать, немного изменил свой вид Policy Loss, в остальном все без критических изменений
+  
+  - Значение параметра ```epsilon: 0.2``` на ```epsilon: 0.1```
+
+  ![image](https://user-images.githubusercontent.com/105949115/209597291-180bcca6-1655-4bcd-be1a-3bb351d32e1f.png)
+  
+  Extrinsic Reward начал убывать, немного изменил свой вид Policy Loss, в остальном все без критических изменений
 
 ## Задание 2
 ### Описать результаты, выведенные в TensorBoard.
