@@ -54,7 +54,11 @@
   
   ![image](https://user-images.githubusercontent.com/105949115/209589678-26061041-4c5d-4bf9-91f9-a496ed7d4cc0.png)
   
-  Можно заметить 
+  Можно заметить, что некоторые графики полностью поменяли свой вид (Cumulative Reward, Episode Length, Entropy, Extrinsic Value Estimate), так как шагов обучения в результатах изначального обучения меньше, чем во втором это не так отчетливо видно.
+  
+  - Значение параметра ```learning_rate: 3.0e-4``` на ```learning_rate: 1.0e-4``` 
+
+  
 
 
 
