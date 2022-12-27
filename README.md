@@ -70,9 +70,16 @@
   
   - Значение параметра ```epsilon: 0.2``` на ```epsilon: 0.1```
 
-  ![image](https://user-images.githubusercontent.com/105949115/209597291-180bcca6-1655-4bcd-be1a-3bb351d32e1f.png)
+  ![image](https://user-images.githubusercontent.com/105949115/209598682-cae586e0-1d6a-4ea3-996e-e6ec9d1debf2.png)
   
-  Extrinsic Reward начал убывать, немного изменил свой вид Policy Loss, в остальном все без критических изменений
+  Cumulative Reward и Extrinsic Reward изменили свой вид, но все равно убывают, Entropy держится в районе 1.4, Epsilon равна 0.1
+  
+  - Значение параметра ```strength: 1.0``` на ```strength: 0.5```
+
+  ![image](https://user-images.githubusercontent.com/105949115/209598682-cae586e0-1d6a-4ea3-996e-e6ec9d1debf2.png)
+  
+  Cumulative Reward и Extrinsic Reward изменили свой вид, но все равно убывают, Entropy держится в районе 1.4, Epsilon равна 0.1
+
 
 ## Задание 2
 ### Описать результаты, выведенные в TensorBoard.
