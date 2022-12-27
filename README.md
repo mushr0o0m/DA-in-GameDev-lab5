@@ -45,16 +45,22 @@
 
 ![image](https://user-images.githubusercontent.com/105949115/209589338-d0d32e4c-b6a2-47f1-9b37-4f40496148ff.png)
 
+![image](https://user-images.githubusercontent.com/105949115/209590975-e7171407-4522-421a-9d98-6522ee67dd14.png)
+
+
 Далее я начал изменять параметры .yalm файла ML-Agent
 
   - Был изменен параметр c ```batch_size: 1024``` на ```batch_size: 2048```  
   
   ![image](https://user-images.githubusercontent.com/105949115/209589678-26061041-4c5d-4bf9-91f9-a496ed7d4cc0.png)
+  
+  Можно заметить 
 
 
 
 ## Задание 2
 ### Описать результаты, выведенные в TensorBoard.
+
 
 
 ## Выводы
