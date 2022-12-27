@@ -41,6 +41,18 @@
 После скачивания и установки unity проекта обнаружил ошибки связанные с пакетами ML-Agent, добавил пакеты ML-Agent. Далее подготовил виртуальную среду ML-Agent, устновил недостающие библиотеки. После обучения ML-Agent, установил и запустил TensorBoard.
 
 
+![image](https://user-images.githubusercontent.com/105949115/209589327-43122205-46c0-41e2-8661-b0aca7509e5a.png)
+
+![image](https://user-images.githubusercontent.com/105949115/209589338-d0d32e4c-b6a2-47f1-9b37-4f40496148ff.png)
+
+Далее я начал изменять параметры .yalm файла ML-Agent
+
+  - Был изменен параметр c ```batch_size: 1024``` на ```batch_size: 2048```  
+  
+  ![image](https://user-images.githubusercontent.com/105949115/209589678-26061041-4c5d-4bf9-91f9-a496ed7d4cc0.png)
+
+
+
 ## Задание 2
 ### Описать результаты, выведенные в TensorBoard.
 
